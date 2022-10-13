@@ -11,6 +11,7 @@
     <div class="all">
         <section>
             <header>
+                <img src="react-2.svg" alt="React Logo">
                 <h1>Jovem empreendedor</h1>
                 <h4 id="gray-color">Faça login e comece a usar!</h4>
             </header>
@@ -27,16 +28,17 @@
                         </label>
                         <input type="password" class="Input-Password" placeholder="**********">
                         <span class="checkbox">
-                            <input type="checkbox" class="Input-Checkbox">
-                            <label>Lembrar de mim por 30 dias</label>
+                            <input type="checkbox" class="Input-Checkbox" checked="checked">
+                            <label id="Remember">Lembrar de mim por 30 dias</label>
+                            <span class="checkmark"></span>
                         </span>
                         
                     </div>
                     <footer>
                         <input type="submit" value="Entrar na plataforma" class="submit">
                         <span id="footer-down">
-                            <h4>Esqueceu sua senha?</h4>
-                            <h4>Não possui conta? Crie uma agora!</h4> 
+                            <a id="Footer-Text-One" href="#">Esqueceu sua senha?</a> <br>
+                            <a href="#" id="Footer-Text-Two">Não possui conta? Crie uma agora!</a>
                         </span>
                         
                     </footer>

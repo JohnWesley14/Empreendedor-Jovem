@@ -13,9 +13,10 @@
     justify-content: center;
     flex-direction: column;
     font-size: 0.9em;
+    background-color: #000;
 }
 header{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
 }
 section{
@@ -24,10 +25,11 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 80vh;
-    width: 80vw;
-    border: 1px solid red;
+    height: 90vh;
+    width: 90vw;
+    border: 1px solid rgb(20,20,80);
     border-radius: 10px;
+    
 }
 h1,label,h4{
     color: #fff;
@@ -67,6 +69,8 @@ footer{
     height: 34px;
     margin-bottom: 20px;
     background-color: #81D8F7;
+    border: none;
+    border-radius: 5px;
 }
 ::-webkit-input-placeholder{
     text-align: center;
@@ -87,3 +91,90 @@ h1{
 #footer-down{
     gap: 5px;
 }
+img{
+    width: 120px;
+    height: 120px;
+    animation: animate 10s infinite ease-in;
+}
+
+#Remember{
+    margin-left: 3px;
+    font-size: 13px;
+    font-weight: 300;
+}
+#Forgot{
+    margin-top: 10px;
+}
+#Footer-Text-One, #Footer-Text-Two{
+    color: #7C7C7A;
+}
+
+@keyframes animate{
+    from{
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+}
+
+.checkbox {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+  }
+  
+  /* Esconder o checkbox padrão */
+  .checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Criar o checkbox customizado */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 2px;
+  }
+  
+  /* Adicionar uma cor de fundo cinza ao passar o mouse */
+  .checkbox:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* Quando o checkbox é clicado, adicionar um fundo rosa */
+  .checkbox input:checked ~ .checkmark {
+    background-color: #ff0a54;
+  }
+  
+  /* Criar o ícone de check, escondido quando não estiver selecionado */
+  .checkbox .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  /* Exibir o ícone quando selecionado */
+  .checkbox input:checked ~ .checkmark:after {
+    display: block;
+  }
