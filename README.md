@@ -12,7 +12,7 @@
 
 Site construído para contribuir com um projeto das minhas amigas
 
-[Clique aqui para acessar](https://johnwesley14.github.io/Empreendedor-Jovem)
+[Clique aqui para acessar](https://johnwesley14.github.io/jovem-empreendedor/)
 
 ## Tecnologias
 
