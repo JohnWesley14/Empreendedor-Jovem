@@ -111,7 +111,8 @@ img{
 }
 
 #Remember{
-    margin-left: 3px;
+    padding-top: 11px;
+    margin-left: 15px;
     font-size: 13px;
     font-weight: 300;
 }
@@ -131,7 +132,12 @@ img{
 }
 .checkbox{
     margin-left: 10px;
+    display: flex;
+    align-items: center;
+    
 }
+
+
 @keyframes animate{
     from{
         transform: rotate(0deg)
