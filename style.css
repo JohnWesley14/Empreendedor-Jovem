@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.9em;
+}
+header{
+    margin-bottom: 20px;
+    text-align: center;
+}
+section{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 80vw;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+h1,label,h4{
+    color: #fff;
+}
+main{
+    margin-top: 30px;
+}
+form{
+    display: flex;
+ 
+    flex-direction: column;
+}
+label{
+    margin-bottom: 12px;
+}
+.Input-Email, .Input-Password{
+    height: 37px;
+    background-color: #202024;
+    outline: none;
+    border: none;
+    border-radius: 5;
+}
+.Section-Email{
+    margin-bottom: 15px;
+}
+.Section-Email, .Section-Password{
+    display: flex;
+
+    flex-direction: column;
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
+.submit{
+    width: 95%;
+    height: 34px;
+    margin-bottom: 20px;
+    background-color: #81D8F7;
+}
+::-webkit-input-placeholder{
+    text-align: center;
+}
+.checkbox{
+    margin-top: 15px;
+}
+h4{
+    font-weight: 400;
+    font-size: 9pt;
+}
+h1{
+    color: #E1E1E6;
+}
+#gray-color{
+    color: #7C7C7A;
+}
+#footer-down{
+    gap: 5px;
+}
