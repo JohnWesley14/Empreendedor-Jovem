@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,13 +20,19 @@
                 <form>
                     <div class="Section-Email">
                         <label>Endereço de e-mail</label>
-                        <input type="email" name="email" class="Input-Email" placeholder="yourname@example.com">
+                        <span class="Email-Align">
+                            <input type="email" name="email" class="Input-Email" placeholder="yourname@example.com">
+                        </span>
+                        
                     </div>
                     <div class="Section-Password">
                         <label >
                             Sua senha
                         </label>
-                        <input type="password" class="Input-Password" placeholder="**********">
+                        <span class="Senha-Align">
+                            <input type="password" class="Input-Password" placeholder="**********">
+                        </span>
+                       
                         <span class="checkbox">
                             <input type="checkbox" class="Input-Checkbox" checked="checked">
                             <label id="Remember">Lembrar de mim por 30 dias</label>
@@ -36,10 +42,10 @@
                     </div>
                     <footer>
                         <input type="submit" value="Entrar na plataforma" class="submit">
-                        <span id="footer-down">
-                            <a id="Footer-Text-One" href="#">Esqueceu sua senha?</a> <br>
+                        <div id="footer-down">
+                            <a id="Footer-Text-One" href="#">Esqueceu sua senha?</a> 
                             <a href="#" id="Footer-Text-Two">Não possui conta? Crie uma agora!</a>
-                        </span>
+                        </div>
                         
                     </footer>
                 </form>
